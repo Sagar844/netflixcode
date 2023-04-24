@@ -1,6 +1,8 @@
 import { useContext } from "react"
 import { data } from "../App"
 import en1 from '../assets/en (1).png'
+import engb from '../assets/en-GB.png'
+
 
 
 
@@ -32,7 +34,7 @@ const MoviesShow = () => {
                 </div>
 
                 <div>
-                    <img src="/src/assets/en-GB.png" alt="" />
+                    <img src={engb} alt="" />
                 </div>
             </div>
             <hr className="bg-[ #494949] mx-20 "></hr>
