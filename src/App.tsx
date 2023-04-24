@@ -40,20 +40,13 @@ const defultstate = {
     strengthingspara: '',
     sign: ''
   },
+
   // eslint-disable-next-line @typescript-eslint/no-empty-function
-  setjson: () => { }
+  setjson: () => {}
 } as MyContextType
                                                                                                                                                                                                                       
 // Create the context
 const data = createContext(defultstate);
-
-
-
-
-
-
-
-
 function App() {
 
   const [json, setjson] = useState<jaons>({
@@ -76,7 +69,6 @@ function App() {
       <div className=' container mx-auto'>
         <data.Provider value={{ json, setjson }}>
           <Navbar />
-          {/* <MoviesMembership /> */}
           <Tv />
           <MoviesShow />
           <StrangerThings />
