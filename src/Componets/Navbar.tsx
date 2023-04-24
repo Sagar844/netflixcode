@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import Language from "./Language";
 import { data } from "../App";
+import  backdropimage from "../assets/backdropimagae.jpg"
 
 const Navbar = () => {
 
@@ -25,7 +26,7 @@ const {json} = useContext(data)
       </div>
 
       <div>
-        <img className="w-full" src="/src/assets/backdropimagae.jpg" alt="" />
+        <img className="w-full" src={backdropimage} alt="" />
       </div>
     </>
   );

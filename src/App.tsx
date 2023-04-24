@@ -1,9 +1,8 @@
 /* eslint-disable react-refresh/only-export-components */
-
 import { Dispatch, SetStateAction, createContext, useState } from 'react'
 import './App.css'
 import AskedQuestions from './Componets/AskedQuestions'
-// import MoviesMembership from './Componets/MoviesMembership'
+
 import MoviesShow from './Componets/MoviesShow'
 import Navbar from './Componets/Navbar'
 import StrangerThings from './Componets/StrangerThings'
@@ -26,8 +25,6 @@ interface MyContextType {
   json: jaons
   setjson: Dispatch<SetStateAction<jaons>>
 }
-
-
 const defultstate = {
   json: {
     title: '',
