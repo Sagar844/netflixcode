@@ -1,0 +1,26 @@
+{
+  "English": {
+    "title": "Enjoy on your TV.",
+    "para": "Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,Blu-ray players and more.",
+    "Watch": "Watch everywhere.",
+    "P": "Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.",
+    "child": "Create profiles for children.",
+    "childpara": "Send children on adventures with their favourite characters in a space made just for them—free with your membership.",
+    "strengthings":"Download your shows to watch offline.",
+    "strengthingspara":"Save your favourites easily and always have something to watch.",
+    "sign":"Sign in"
+
+  },
+  "हिंदी": {
+    "title": "अपने टीवी पर आनंद लें।",
+    "para": "स्मार्ट टीवी, प्लेस्टेशन, एक्सबॉक्स, क्रोमकास्ट, ऐप्पल टीवी पर देखें, ब्लू-रे प्लेयर और बहुत कुछ।",
+    "Watch": "हर जगह नजर रखें।",
+    "P": "अपने फोन, टैबलेट, लैपटॉप और टीवी पर असीमित फिल्में और टीवी शो स्ट्रीम करें।",
+    "child": "बच्चों के लिए प्रोफ़ाइल बनाएं.",
+    "childpara": " बच्चों को जाने दें अपने पसंदीदा किरदारों के साथ उस रोमांचक सफ़र पर जो सिर्फ़ उनके लिए ही है - आपकी मेंबरशिप के साथ फ़्री.",
+    "strengthings":"ऑफ़लाइन देखने के लिए अपने शो डाउनलोड करें।",
+    "strengthingspara":"अपने पसंदीदा को आसानी से सहेजें और देखने के लिए हमेशा कुछ न कुछ रखें।",
+    "sign":"दाखिल करना"
+
+  }
+}
