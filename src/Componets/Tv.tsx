@@ -1,5 +1,6 @@
 import { useContext } from "react"
-import { data} from "../App"
+import { data } from "../App"
+import eng from "../assets/en.png"
 
 
 const Tv = () => {
@@ -15,7 +16,7 @@ const Tv = () => {
                 </div>
 
                 <div className="">
-                    <img className="w-full h-full" src="/src/assets/en.png" alt="" />
+                    <img className="w-full h-full" src={eng} alt="" />
                 </div>
             </div >
             <hr className="bg-[ #494949] mx-20"></hr>

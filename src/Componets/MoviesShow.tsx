@@ -1,5 +1,6 @@
 import { useContext } from "react"
 import { data } from "../App"
+import en1 from '../assets/en (1).png'
 
 
 
@@ -12,7 +13,7 @@ const MoviesShow = () => {
             <div className="flex justify-between lg:mx-40 items-center">
 
                 <div>
-                    <img src="/src/assets/en (1).png" alt="" />
+                    <img src={en1} alt="" />
                 </div>
                 <div>
                     <h1 className="lg:text-4xl font-bold">{json.Watch}</h1>

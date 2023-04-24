@@ -2,6 +2,7 @@ import { useContext } from "react";
 import Language from "./Language";
 import { data } from "../App";
 import  backdropimage from "../assets/backdropimagae.jpg"
+import logo from "../assets/icons8-netflix-48.png"
 
 const Navbar = () => {
 
@@ -13,7 +14,7 @@ const {json} = useContext(data)
         <div className="flex justify-between items-center ">
           <img
             className="lg:w-20 mx-5 max-w-28 cursor-pointer"
-            src="/src/assets/icons8-netflix-48.png"
+            src={logo}
             alt=""
           />
           <div>
