@@ -7,6 +7,7 @@ const AskedQuestions = () => {
             <h1 className="font-bold lg:text-4xl ">Frequently Asked Questions</h1>
 
             <div
+
                 onClick={() => settpop(!pop)}
                 className="bg-[#132144] cursor-pointer hover:bg-[#0d276b] p-6 mt-5 flex font-bold justify-between items-center"
             >
@@ -80,6 +81,7 @@ const AskedQuestions = () => {
             <div className="space-x-2 space-y-5">
                 <input placeholder="Email address"
                     autoComplete="on"
+                    required
                     className="border-[#2bb871] border lg:w-96 w-80 bg-[#132144] text-start py-3 required  rounded-md "
                     type="search"
                 />

@@ -1,4 +1,5 @@
 import Language from "./Language"
+import { motion } from "framer-motion"
 
 const Footer = () => {
     return (
@@ -9,16 +10,18 @@ const Footer = () => {
                     <h1>Questions? Call 000-800-919-1694</h1>
                 </div>
 
-                <div className=" space-y-2 mb-4 ">
+                <motion.div initial={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ duration: 0.5 }} className=" space-y-2 mb-4 ">
                     <h2>FAQ</h2>
                     <h2>Investor Relations</h2>
                     <h2>Privacy</h2>
                     <h2>Speed Test</h2>
                     <div className="mt-">
-                        <Language />
+                        <Language/>
                         <h1>Netflix India</h1>
                     </div>
-                </div>
+                </motion.div>
                 <div className=" space-y-2">
                     <h2>Help Centre</h2>
                     <h2>Jobs</h2>
